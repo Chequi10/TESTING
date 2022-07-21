@@ -1,0 +1,62 @@
+---
+:source:
+  :path: test
+  :file: test_tp4_leds.c
+:successes:
+- :test: test_inicializar_puerto_leds_y_apagar_todos
+  :line: 31
+  :message: ''
+  :unity_test_time: 0
+- :test: test_prender_led_especifico
+  :line: 39
+  :message: ''
+  :unity_test_time: 0
+- :test: test_apagar_led_especifico
+  :line: 46
+  :message: ''
+  :unity_test_time: 0
+- :test: test_prender_y_apagar_varios_leds_a_la_vez
+  :line: 54
+  :message: ''
+  :unity_test_time: 0
+- :test: test_prender_todo_el_puerto_de_leds
+  :line: 65
+  :message: ''
+  :unity_test_time: 0
+- :test: test_apagar_todo_el_puerto_de_leds
+  :line: 72
+  :message: ''
+  :unity_test_time: 0
+- :test: test_revisar_parametro_invalido_superior_led_prendido
+  :line: 79
+  :message: ''
+  :unity_test_time: 0
+- :test: test_revisar_parametro_invalido_superior_led_apagado
+  :line: 88
+  :message: ''
+  :unity_test_time: 0
+- :test: test_revisar_parametro_invalido_inferior_led_prendido
+  :line: 97
+  :message: ''
+  :unity_test_time: 0
+- :test: test_revisar_parametro_invalido_inferior_led_apagado
+  :line: 106
+  :message: ''
+  :unity_test_time: 0
+- :test: test_leer_estado_prendido_de_un_led
+  :line: 115
+  :message: ''
+  :unity_test_time: 0
+- :test: test_leer_estado_apagado_de_un_led
+  :line: 124
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 12
+  :passed: 12
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.0016542020000542834

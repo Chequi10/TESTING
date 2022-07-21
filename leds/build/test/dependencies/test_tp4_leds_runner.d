@@ -1,5 +1,5 @@
-build/test/out/c/test_leds_runner.o: \
- build/test/runners/test_leds_runner.c \
+build/test/out/c/test_tp4_leds_runner.o: \
+ build/test/runners/test_tp4_leds_runner.c \
  /var/lib/gems/2.7.0/gems/ceedling-0.31.1/vendor/unity/src/unity.h \
  /var/lib/gems/2.7.0/gems/ceedling-0.31.1/vendor/unity/src/unity_internals.h \
  /var/lib/gems/2.7.0/gems/ceedling-0.31.1/vendor/cmock/src/cmock.h \
